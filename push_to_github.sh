@@ -22,9 +22,7 @@ git branch -M main
 
 # Добавление remote, если не добавлен
 if ! git remote | grep -q origin; then
-  echo "Введите ссылку на ваш репозиторий GitHub (например, https://github.com/USER/REPO.git):"
-  read repo_url
-  git remote add origin "$repo_url"
+  git remote add origin "https://github.com/warrior198919/price_processor_1C_UNF.git"
 fi
 
 # Пуш на GitHub
